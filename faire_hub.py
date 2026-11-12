@@ -34,7 +34,7 @@ page = f"""<!DOCTYPE html>
 @media (prefers-color-scheme: dark) {{ :root {{ --fond: #0d0d10; --carte: #18181c; --texte: #f2f2f2; --doux: #a8a8b0; --trait: #f2f2f2; }} }}
 * {{ box-sizing: border-box; }}
 body {{ margin: 0; background: var(--fond); color: var(--texte); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }}
-main {{ max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }}
+main {{ max-width: 760px; margin: 0 auto; padding: 40px 16px 64px; }}
 h1 {{ font: 700 40px/1.1 "New York", Georgia, serif; margin: 0 0 4px; }}
 .sous {{ color: var(--doux); margin: 0 0 32px; }}
 h2 {{ font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--doux); margin: 32px 0 10px; }}
@@ -56,8 +56,6 @@ footer {{ margin-top: 40px; color: var(--doux); font-size: 13px; }}
 </head>
 <body>
 <main>
-<h1>DM</h1>
-<p class="sous"><span lang="fr">Mes projets en cours.</span><span lang="en">My ongoing projects.</span></p>
 <h2><span lang="fr">Projets</span><span lang="en">Projects</span></h2>
 <div class="projets">{cartes}</div>
 <footer>© 2026</footer>
