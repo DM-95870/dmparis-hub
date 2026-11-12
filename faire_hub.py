@@ -56,7 +56,6 @@ footer {{ margin-top: 40px; color: var(--doux); font-size: 13px; }}
 </head>
 <body>
 <main>
-<h2><span lang="fr">Projets</span><span lang="en">Projects</span></h2>
 <div class="projets">{cartes}</div>
 <footer>© 2026</footer>
 </main>
